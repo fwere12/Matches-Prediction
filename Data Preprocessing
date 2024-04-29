@@ -1,0 +1,15 @@
+#importing the necessary libraries
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+#uploading the dataset
+df = pd.read_csv("/workspaces/Matches-Prediction/matches (1).csv")
+df.head(5)
+
+#defining the data types
+df.types
+
+#Summary statistics
+df.
